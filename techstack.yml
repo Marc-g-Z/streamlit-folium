@@ -1,0 +1,302 @@
+repo_name: Marc-g-Z/streamlit-folium
+report_id: d8d637af646fc7422dbf8c3d0de92c53
+repo_type: Public
+timestamp: '2023-11-14T03:47:09+00:00'
+requested_by: BastienGauthier
+provider: github
+branch: master
+detected_tools_count: 23
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source: requirements.txt
+  last_updated_by: Zachary Blackwood
+  last_updated_on: 2022-04-21 17:10:22.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: Randy Zwitch
+  last_updated_on: 2020-07-17 16:14:25.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: Randy Zwitch
+  last_updated_on: 2020-07-17 16:14:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/run_tests_each_PR.yml"
+  last_updated_by: Randy Zwitch
+  last_updated_on: 2023-06-05 12:42:47.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: Randy Zwitch
+  last_updated_on: 2020-07-17 16:14:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: Randy Zwitch
+  last_updated_on: 2020-07-17 16:14:25.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: tests/requirements.txt
+  detection_source: tests/requirements.txt
+  last_updated_by: Zachary Blackwood
+  last_updated_on: 2023-11-07 12:35:43.000000000 Z
+- name: Leaflet
+  description: JavaScript library for mobile-friendly interactive maps
+  website_url: http://leafletjs.com/
+  version: 1.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/2392/leaflet_upic.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: Zachary Blackwood
+  last_updated_on: 2022-02-15 01:18:49.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Streamlit
+  description: A Python app framework built specifically for Machine Learning and
+    Data Science teams
+  website_url: https://streamlit.io
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png
+  detection_source: tests/requirements.txt
+  last_updated_by: Zachary Blackwood
+  last_updated_on: 2023-07-07 21:16:15.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 9.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: "@types/leaflet"
+  description: TypeScript definitions for Leaflet.js
+  package_url: https://www.npmjs.com/@types/leaflet
+  version: 1.7.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18718/default_417b40eb0d0e57406cf660ce53dd8dec69c7401d.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: "@types/underscore"
+  description: TypeScript definitions for Underscore
+  package_url: https://www.npmjs.com/@types/underscore
+  version: 1.11.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17484/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: hoist-non-react-statics
+  description: Copies non-react specific statics from a child component to a parent
+    component
+  package_url: https://www.npmjs.com/hoist-non-react-statics
+  version: 3.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: BastienGauthier
+  last_updated_on: 2023-11-09 17:05:08.000000000 Z
+- name: underscore
+  description: JavaScript's functional programming helper library
+  package_url: https://www.npmjs.com/underscore
+  version: 1.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15882/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: streamlit_folium/frontend/package.json
+  detection_source: streamlit_folium/frontend/package.json
+  last_updated_by: Zachary Blackwood
+  last_updated_on: 2022-02-11 14:28:43.000000000 Z
